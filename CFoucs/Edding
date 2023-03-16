@@ -1,0 +1,50 @@
+IF(AND(Turnover_PQ_NUM >= 0, Turnover_PQ_NUM < 500000) , 1.00000000000 , 
+IF(AND(Turnover_PQ_NUM >= 500000, Turnover_PQ_NUM < 1000000) , 0.85789473684, 
+IF(AND(Turnover_PQ_NUM >= 1000000, Turnover_PQ_NUM < 2000000), 0.72368421053,
+IF(AND(Turnover_PQ_NUM >= 2000000, Turnover_PQ_NUM < 3000000),0.43947368421
+,IF(AND(Turnover_PQ_NUM >= 3000000, Turnover_PQ_NUM < 4000000) ,0.49736842105
+,IF(AND(Turnover_PQ_NUM >= 4000000, Turnover_PQ_NUM < 5000000),0.43947368421
+,IF(AND(Turnover_PQ_NUM >= 5000000, Turnover_PQ_NUM < 7500000),0.39210526316
+,IF(AND(Turnover_PQ_NUM >= 7500000, Turnover_PQ_NUM < 10000000), 0.37105263158
+, 0.37105263158 )))))))) ;
+
+
+"FiscalCode_override": "string",
+  "EffectiveChangeDate": "2023-02-20",
+  "Discount_Code": "string",
+  "Titolo": "string",
+  "Insured_FirstName": "string",
+  "Insured_Surname": "string",
+  "Pet_Name": "string",
+  "Legal_physical_entity": "Persona fisica",
+  "StartDate_Quote": "2023-02-20",
+  "Insured_Gender": "Maschio",
+  "Pet_Type": "string",
+  "Insured_BirthPlace_Choice": "string",
+  "Pet_Age2": "tra 1 settimana e 6 mesi",
+  "Insured_BirthPlace_Choice_temp": "string",
+  "Pet_Birthday": "2023-02-20",
+  "Pet_Age": "string",
+  "Pet_Gender": "Femminile",
+  "Insured_DOB": "2023-02-20",
+  "AddressLine1": "string",
+  "MIcrochip_Choice": "string",
+  "AddressLine2": "string",
+  "Microchip_Code": "string",
+  "City": "string",
+  "InsuredEmail": "string",
+  "CustomerEmail": "string",
+  "City_temp": "string",
+  "PolicyStartDate": "2023-02-20",
+  "Postcode": "string",
+  "Confirm_Contact": "string",
+  "Inusred_PhoneNumber": "string",
+  "Confirm_Commercial": "string",
+  "Legal_Question1_PQ": "Yes",
+  "Confirm_ThirdParty": "string",
+  "Leagl_Question2_PQ": "Yes",
+  "Communication_YN": "string",
+  "Hidden_1": "Yes",
+  "AdditionalAgentName": "string",
+  "ExternalReference": "string",
+  "SelectedCoverType": "string"
